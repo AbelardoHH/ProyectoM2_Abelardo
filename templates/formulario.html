@@ -28,7 +28,7 @@
                 if (data.error) {
                     document.getElementById('resultado').innerText = 'Error: ' + data.error;
                 } else {
-                    document.getElementById('resultado').innerText = 'El porcentaje de recomendación del producto es ' + data.prediction;
+                    document.getElementById('resultado').innerText = 'La predicción del precio es: ' + data.prediction;
                 }
             })
             .catch(error => {
