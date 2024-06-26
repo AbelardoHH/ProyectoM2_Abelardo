@@ -9,7 +9,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 # Cargar el modelo entrenado
-model = joblib.load('modeloRf93.pkl')
+model = joblib.load('modeloRf.pkl')
 scaler = joblib.load('dataFrameScalado.pkl')
 app.logger.debug('Modelo cargado correctamente.')
 
